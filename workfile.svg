@@ -579,391 +579,349 @@ d="m 78.61215932167728,44.5 m 0,0 l 0.0,-30.0 l -0.8660254037844386,0.5 l -0.0,3
 <line x1="77.74613391789285" y1="45.0" x2="77.74613391789285" y2="15.0" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,47.5 m 0,0 l -8.660254037844386,-5.0 l -0.0,1.0 l 8.660254037844386,5.0 l 0.0,-1.0 "
+d="m 52.63139720814412,47.5 m 0,0 l -9.526279441628825,-5.5 l -0.0,1.0 l 9.526279441628825,5.5 l 0.0,-1.0 "
 />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,47.5 m 0,0 l -8.660254037844386,-5.0 l 0.0,-1.0 l 8.660254037844386,5.0 l -0.0,1.0 "
+d="m 52.63139720814412,47.5 m 0,0 l -9.526279441628825,-5.5 l 0.0,-1.0 l 9.526279441628825,5.5 l -0.0,1.0 "
 />
-<line x1="52.63139720814412" y1="47.5" x2="43.97114317029974" y2="42.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="48.5" x2="43.97114317029974" y2="43.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="46.5" x2="43.97114317029974" y2="41.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="47.5" x2="43.1051177665153" y2="42.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="48.5" x2="43.1051177665153" y2="43.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="46.5" x2="43.1051177665153" y2="41.0" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,52.5 m 0,0 l 8.660254037844386,-5.0 l -0.8660254037844386,-0.5 l -8.660254037844386,5.0 l 0.8660254037844386,0.5 "
+d="m 52.63139720814412,52.5 m 0,0 l 9.526279441628825,-5.5 l -0.8660254037844386,-0.5 l -9.526279441628825,5.5 l 0.8660254037844386,0.5 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,52.5 m 0,0 l 8.660254037844386,-5.0 l 0.8660254037844386,0.5 l -8.660254037844386,5.0 l -0.8660254037844386,-0.5 "
+d="m 52.63139720814412,52.5 m 0,0 l 9.526279441628825,-5.5 l 0.8660254037844386,0.5 l -9.526279441628825,5.5 l -0.8660254037844386,-0.5 "
 />
-<line x1="52.63139720814412" y1="52.5" x2="61.291651245988504" y2="47.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435968" y1="52.0" x2="60.42562584220407" y2="47.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="53.49742261192856" y1="53.0" x2="62.15767664977295" y2="48.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="52.5" x2="62.157676649772945" y2="47.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="51.76537180435968" y1="52.0" x2="61.291651245988504" y2="46.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="53.49742261192856" y1="53.0" x2="63.023702053557386" y2="47.5" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 48.301270189221924,50.0 m 0,0 l -0.0,10.0 l 0.8660254037844386,-0.5 l 0.0,-10.0 l -0.8660254037844386,0.5 "
+d="m 48.301270189221924,50.0 m 0,0 l -0.0,11.0 l 0.8660254037844386,-0.5 l 0.0,-11.0 l -0.8660254037844386,0.5 "
 />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 48.301270189221924,50.0 m 0,0 l -0.0,10.0 l -0.8660254037844386,0.5 l 0.0,-10.0 l 0.8660254037844386,-0.5 "
+d="m 48.301270189221924,50.0 m 0,0 l -0.0,11.0 l -0.8660254037844386,0.5 l 0.0,-11.0 l 0.8660254037844386,-0.5 "
 />
-<line x1="48.301270189221924" y1="50.0" x2="48.301270189221924" y2="60.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="49.167295593006365" y1="49.5" x2="49.167295593006365" y2="59.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="47.43524478543748" y1="50.5" x2="47.43524478543748" y2="60.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="48.301270189221924" y1="50.0" x2="48.301270189221924" y2="61.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="49.167295593006365" y1="49.5" x2="49.167295593006365" y2="60.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="47.43524478543748" y1="50.5" x2="47.43524478543748" y2="61.5" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,49.5 m 0,0 l 0.0,-3.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,2.0 "
+d="m 52.63139720814412,49.5 m 0.8660254037844386,-0.5 l 0.0,-2.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,1.0 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,49.5 m -0.8660254037844386,-1.5 l -1.7320508075688772,1.0 l 0.8660254037844386,0.5 l 0.8660254037844386,-0.5 l 0.0,-1.0 "
+d="m 52.63139720814412,49.5 m 0.8660254037844386,-2.5 l -0.8660254037844386,-0.5 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 "
 />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,49.5 m 0,0 l 0.0,-2.0 l 0.0,-1.0 l 0.8660254037844386,0.5 l -0.0,2.0 "
+d="m 52.63139720814412,49.5 m -0.8660254037844386,0.5 l 0.0,-1.0 l 0.8660254037844386,-0.5 l -0.0,1.0 "
 />
-<line x1="52.63139720814412" y1="49.5" x2="52.63139720814412" y2="47.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="47.5" x2="52.63139720814412" y2="46.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="46.5" x2="49.167295593006365" y2="48.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.033320996790806" y1="49.0" x2="51.76537180435968" y2="48.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435968" y1="48.0" x2="51.76537180435968" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435968" y1="49.0" x2="51.76537180435968" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="49.5" x2="52.63139720814412" y2="48.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="51.76537180435968" y1="50.0" x2="51.76537180435968" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
 <line x1="53.49742261192856" y1="49.0" x2="53.49742261192856" y2="47.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="48.5" x2="50.89934640057525" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="53.49742261192856" y1="47.0" x2="50.033320996790806" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
 <line x1="53.49742261192856" y1="47.0" x2="52.63139720814412" y2="46.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435968" y1="49.0" x2="50.89934640057524" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="46.5" x2="49.167295593006365" y2="48.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="46.5" x2="49.167295593006365" y2="48.5" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.033320996790806,49.0 m 0,0 l -0.0,0.0 l -0.8660254037844386,-0.5 l 0.0,-0.0 l 0.8660254037844386,0.5 "
+d="m 52.63139720814412,49.5 m 0,0 l -0.0,0.0 l 0.8660254037844386,0.5 l 0.0,-0.0 l -0.8660254037844386,-0.5 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.033320996790806,49.0 m 0,0 l -0.0,0.0 l 0.8660254037844386,0.5 l 0.0,-0.0 l -0.8660254037844386,-0.5 "
-/>
-<line x1="50.033320996790806" y1="49.0" x2="50.033320996790806" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="49.167295593006365" y1="48.5" x2="49.167295593006365" y2="48.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.89934640057525" y1="49.5" x2="50.89934640057525" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.033320996790806,49.0 m 0,0 l -2.598076211353316,1.5 l 3.4641016151377544,2.0 l 0.0,-1.0 l -1.7320508075688772,-1.0 l 1.7320508075688772,-1.0 "
-/>
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.033320996790806,49.0 m -0.8660254037844386,1.5 l 1.7320508075688772,1.0 l 0.0,-1.0 l -0.8660254037844386,-0.5 l -0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.033320996790806,49.0 m 0,0 l -1.7320508075688772,1.0 l -0.8660254037844386,0.5 l 0.0,-1.0 l 1.7320508075688772,-1.0 "
-/>
-<line x1="50.033320996790806" y1="49.0" x2="48.30127018922193" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="48.30127018922193" y1="50.0" x2="47.43524478543749" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="47.43524478543749" y1="50.5" x2="50.89934640057525" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.89934640057525" y1="51.5" x2="49.16729559300637" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="49.16729559300637" y1="50.5" x2="50.89934640057525" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.033320996790806" y1="50.0" x2="50.033320996790806" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="49.167295593006365" y1="48.5" x2="47.43524478543749" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="47.43524478543749" y1="49.5" x2="47.43524478543749" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.033320996790806" y1="50.0" x2="50.89934640057525" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.89934640057525,51.5 m 0,0 l 0.0,0.0 l -0.0,1.0 l -0.0,-0.0 l 0.0,-1.0 "
-/>
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.89934640057525,51.5 m 0,0 l 0.0,0.0 l 0.0,-1.0 l -0.0,-0.0 l -0.0,1.0 "
-/>
-<line x1="50.89934640057525" y1="51.5" x2="50.89934640057525" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.89934640057525" y1="52.5" x2="50.89934640057525" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.89934640057525" y1="50.5" x2="50.89934640057525" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.89934640057525,51.5 m 0,0 l 2.598076211353316,1.5 l 0.0,-4.0 l -0.8660254037844386,0.5 l -0.0,2.0 l -1.7320508075688772,-1.0 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.89934640057525,51.5 m 1.7320508075688772,0.0 l 0.0,-2.0 l -0.8660254037844386,0.5 l -0.0,1.0 l 0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 50.89934640057525,51.5 m 0,0 l 1.7320508075688772,1.0 l 0.8660254037844386,0.5 l -0.8660254037844386,0.5 l -1.7320508075688772,-1.0 "
-/>
-<line x1="50.89934640057525" y1="51.5" x2="52.63139720814412" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="52.5" x2="53.49742261192856" y2="53.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="53.49742261192856" y1="53.0" x2="53.49742261192856" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="49.5" x2="52.63139720814412" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="51.5" x2="50.89934640057525" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435969" y1="51.0" x2="51.76537180435969" y2="51.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="50.89934640057525" y1="52.5" x2="52.63139720814412" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="52.63139720814412" y1="53.5" x2="53.49742261192856" y2="53.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435969" y1="51.0" x2="51.76537180435969" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,49.5 m 0,0 l 0.0,-0.0 l 0.8660254037844386,-0.5 l -0.0,0.0 l -0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 52.63139720814412,49.5 m 0,0 l 0.0,-0.0 l -0.8660254037844386,0.5 l -0.0,0.0 l 0.8660254037844386,-0.5 "
+d="m 52.63139720814412,49.5 m 0,0 l -0.0,0.0 l -0.8660254037844386,-0.5 l 0.0,-0.0 l 0.8660254037844386,0.5 "
 />
 <line x1="52.63139720814412" y1="49.5" x2="52.63139720814412" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="53.49742261192856" y1="49.0" x2="53.49742261192856" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="51.76537180435968" y1="50.0" x2="51.76537180435968" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,52.5 m 0,0 l -8.660254037844386,-5.0 l -0.0,1.0 l 8.660254037844386,5.0 l 0.0,-1.0 "
-/>
+<line x1="53.49742261192856" y1="50.0" x2="53.49742261192856" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="51.76537180435968" y1="49.0" x2="51.76537180435968" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,52.5 m 0,0 l -8.660254037844386,-5.0 l 0.0,-1.0 l 8.660254037844386,5.0 l -0.0,1.0 "
-/>
-<line x1="78.61215932167728" y1="52.5" x2="69.9519052838329" y2="47.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="53.5" x2="69.9519052838329" y2="48.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="51.5" x2="69.9519052838329" y2="46.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,57.5 m 0,0 l 8.660254037844386,-5.0 l -0.8660254037844386,-0.5 l -8.660254037844386,5.0 l 0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,57.5 m 0,0 l 8.660254037844386,-5.0 l 0.8660254037844386,0.5 l -8.660254037844386,5.0 l -0.8660254037844386,-0.5 "
-/>
-<line x1="78.61215932167728" y1="57.5" x2="87.27241335952166" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789285" y1="57.0" x2="86.40638795573723" y2="52.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="79.47818472546172" y1="58.0" x2="88.1384387633061" y2="53.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 74.2820323027551,55.0 m 0,0 l -0.0,10.0 l 0.8660254037844386,-0.5 l 0.0,-10.0 l -0.8660254037844386,0.5 "
+d="m 50.89934640057525,51.5 m -0.0,1.0 l 1.7320508075688772,1.0 l 0.0,-4.0 l -0.8660254037844386,0.5 l -0.0,2.0 l -0.8660254037844386,-0.5 "
 />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 74.2820323027551,55.0 m 0,0 l -0.0,10.0 l -0.8660254037844386,0.5 l 0.0,-10.0 l 0.8660254037844386,-0.5 "
-/>
-<line x1="74.2820323027551" y1="55.0" x2="74.2820323027551" y2="65.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="75.14805770653953" y1="54.5" x2="75.14805770653953" y2="64.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="73.41600689897066" y1="55.5" x2="73.41600689897066" y2="65.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,54.5 m 0,0 l 0.0,-3.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,2.0 "
+d="m 50.89934640057525,51.5 m 1.7320508075688772,2.0 l 0.8660254037844386,-0.5 l 0.0,-4.0 l -0.8660254037844386,0.5 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,54.5 m -0.8660254037844386,-1.5 l -1.7320508075688772,1.0 l 0.8660254037844386,0.5 l 0.8660254037844386,-0.5 l 0.0,-1.0 "
+d="m 50.89934640057525,51.5 m 0.0,-1.0 l 0.8660254037844386,0.5 l -0.0,1.0 l -0.8660254037844386,-0.5 "
+/>
+<line x1="50.89934640057525" y1="51.5" x2="51.76537180435969" y2="52.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="50.89934640057525" y1="50.5" x2="51.76537180435969" y2="51.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="50.89934640057525" y1="52.5" x2="52.63139720814412" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="51.76537180435969" y1="52.0" x2="51.76537180435969" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="53.5" x2="52.63139720814412" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="52.63139720814412" y1="53.5" x2="53.49742261192856" y2="53.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="53.49742261192856" y1="53.0" x2="53.49742261192856" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="53.49742261192856" y1="53.0" x2="53.49742261192856" y2="49.0" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 50.89934640057525,51.5 m 0,0 l 0.0,0.0 l 0.0,-1.0 l -0.0,-0.0 l -0.0,1.0 "
 />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,54.5 m 0,0 l 0.0,-2.0 l 0.0,-1.0 l 0.8660254037844386,0.5 l -0.0,2.0 "
+d="m 50.89934640057525,51.5 m 0,0 l 0.0,0.0 l -0.0,1.0 l -0.0,-0.0 l 0.0,-1.0 "
 />
-<line x1="78.61215932167728" y1="54.5" x2="78.61215932167728" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="52.5" x2="78.61215932167728" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="51.5" x2="75.14805770653953" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.01408311032397" y1="54.0" x2="77.74613391789285" y2="53.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789285" y1="53.0" x2="77.74613391789285" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789285" y1="54.0" x2="77.74613391789285" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="50.89934640057525" y1="51.5" x2="50.89934640057525" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="50.89934640057525" y1="50.5" x2="50.89934640057525" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="50.89934640057525" y1="52.5" x2="50.89934640057525" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 50.033320996790806,49.0 m -0.8660254037844386,-0.5 l -1.7320508075688772,1.0 l 3.4641016151377544,2.0 l 0.0,-1.0 l -1.7320508075688772,-1.0 l 0.8660254037844386,-0.5 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 50.033320996790806,49.0 m -2.598076211353316,0.5 l -0.0,1.0 l 3.4641016151377544,2.0 l 0.0,-1.0 "
+/>
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 50.033320996790806,49.0 m 0.8660254037844386,0.5 l -0.8660254037844386,0.5 l -0.8660254037844386,-0.5 l 0.8660254037844386,-0.5 "
+/>
+<line x1="50.033320996790806" y1="49.0" x2="49.167295593006365" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="50.89934640057525" y1="49.5" x2="50.033320996790806" y2="50.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="49.167295593006365" y1="48.5" x2="47.43524478543749" y2="49.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="49.167295593006365" y1="49.5" x2="50.89934640057524" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="47.43524478543749" y1="49.5" x2="50.89934640057525" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="47.43524478543749" y1="49.5" x2="47.43524478543749" y2="50.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="47.43524478543749" y1="50.5" x2="50.89934640057525" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="47.43524478543749" y1="50.5" x2="50.89934640057525" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,52.5 m 0,0 l -9.526279441628825,-5.5 l -0.0,1.0 l 9.526279441628825,5.5 l 0.0,-1.0 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,52.5 m 0,0 l -9.526279441628825,-5.5 l 0.0,-1.0 l 9.526279441628825,5.5 l -0.0,1.0 "
+/>
+<line x1="78.61215932167728" y1="52.5" x2="69.08587988004845" y2="47.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="53.5" x2="69.08587988004845" y2="48.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="51.5" x2="69.08587988004845" y2="46.0" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,57.5 m 0,0 l 9.526279441628825,-5.5 l -0.8660254037844386,-0.5 l -9.526279441628825,5.5 l 0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,57.5 m 0,0 l 9.526279441628825,-5.5 l 0.8660254037844386,0.5 l -9.526279441628825,5.5 l -0.8660254037844386,-0.5 "
+/>
+<line x1="78.61215932167728" y1="57.5" x2="88.13843876330611" y2="52.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="77.74613391789285" y1="57.0" x2="87.27241335952168" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="79.47818472546172" y1="58.0" x2="89.00446416709055" y2="52.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 74.2820323027551,55.0 m 0,0 l -0.0,11.0 l 0.8660254037844386,-0.5 l 0.0,-11.0 l -0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 74.2820323027551,55.0 m 0,0 l -0.0,11.0 l -0.8660254037844386,0.5 l 0.0,-11.0 l 0.8660254037844386,-0.5 "
+/>
+<line x1="74.2820323027551" y1="55.0" x2="74.2820323027551" y2="66.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="75.14805770653953" y1="54.5" x2="75.14805770653953" y2="65.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="73.41600689897066" y1="55.5" x2="73.41600689897066" y2="66.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,54.5 m 0.8660254037844386,-0.5 l 0.0,-2.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,1.0 "
+/>
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,54.5 m 0.8660254037844386,-2.5 l -0.8660254037844386,-0.5 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 78.61215932167728,54.5 m -0.8660254037844386,0.5 l 0.0,-1.0 l 0.8660254037844386,-0.5 l -0.0,1.0 "
+/>
+<line x1="78.61215932167728" y1="54.5" x2="78.61215932167728" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="77.74613391789285" y1="55.0" x2="77.74613391789285" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
 <line x1="79.47818472546172" y1="54.0" x2="79.47818472546172" y2="52.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="53.5" x2="76.8801085141084" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="79.47818472546172" y1="52.0" x2="76.01408311032397" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
 <line x1="79.47818472546172" y1="52.0" x2="78.61215932167728" y2="51.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789285" y1="54.0" x2="76.88010851410841" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="51.5" x2="75.14805770653953" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="51.5" x2="75.14805770653953" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.01408311032397,54.0 m 0,0 l -0.0,0.0 l -0.8660254037844386,-0.5 l 0.0,-0.0 l 0.8660254037844386,0.5 "
+d="m 78.61215932167728,54.5 m 0,0 l -0.0,0.0 l 0.8660254037844386,0.5 l 0.0,-0.0 l -0.8660254037844386,-0.5 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.01408311032397,54.0 m 0,0 l -0.0,0.0 l 0.8660254037844386,0.5 l 0.0,-0.0 l -0.8660254037844386,-0.5 "
-/>
-<line x1="76.01408311032397" y1="54.0" x2="76.01408311032397" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="75.14805770653953" y1="53.5" x2="75.14805770653953" y2="53.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.8801085141084" y1="54.5" x2="76.8801085141084" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.01408311032397,54.0 m 0,0 l -2.598076211353316,1.5 l 3.4641016151377544,2.0 l 0.0,-1.0 l -1.7320508075688772,-1.0 l 1.7320508075688772,-1.0 "
-/>
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.01408311032397,54.0 m -0.8660254037844386,1.5 l 1.7320508075688772,1.0 l 0.0,-1.0 l -0.8660254037844386,-0.5 l -0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.01408311032397,54.0 m 0,0 l -1.7320508075688772,1.0 l -0.8660254037844386,0.5 l 0.0,-1.0 l 1.7320508075688772,-1.0 "
-/>
-<line x1="76.01408311032397" y1="54.0" x2="74.28203230275508" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="74.28203230275508" y1="55.0" x2="73.41600689897065" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="73.41600689897065" y1="55.5" x2="76.8801085141084" y2="57.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.8801085141084" y1="56.5" x2="75.14805770653952" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="75.14805770653952" y1="55.5" x2="76.8801085141084" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.01408311032397" y1="55.0" x2="76.01408311032397" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="75.14805770653953" y1="53.5" x2="73.41600689897065" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="73.41600689897065" y1="54.5" x2="73.41600689897065" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.01408311032397" y1="55.0" x2="76.8801085141084" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.8801085141084,56.5 m 0,0 l 0.0,0.0 l -0.0,1.0 l -0.0,-0.0 l 0.0,-1.0 "
-/>
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.8801085141084,56.5 m 0,0 l 0.0,0.0 l 0.0,-1.0 l -0.0,-0.0 l -0.0,1.0 "
-/>
-<line x1="76.8801085141084" y1="56.5" x2="76.8801085141084" y2="56.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.8801085141084" y1="57.5" x2="76.8801085141084" y2="57.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.8801085141084" y1="55.5" x2="76.8801085141084" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.8801085141084,56.5 m 0,0 l 2.598076211353316,1.5 l 0.0,-4.0 l -0.8660254037844386,0.5 l -0.0,2.0 l -1.7320508075688772,-1.0 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.8801085141084,56.5 m 1.7320508075688772,0.0 l 0.0,-2.0 l -0.8660254037844386,0.5 l -0.0,1.0 l 0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 76.8801085141084,56.5 m 0,0 l 1.7320508075688772,1.0 l 0.8660254037844386,0.5 l -0.8660254037844386,0.5 l -1.7320508075688772,-1.0 "
-/>
-<line x1="76.8801085141084" y1="56.5" x2="78.61215932167728" y2="57.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="57.5" x2="79.47818472546172" y2="58.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="79.47818472546172" y1="58.0" x2="79.47818472546172" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="54.5" x2="78.61215932167728" y2="56.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="56.5" x2="76.8801085141084" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789283" y1="56.0" x2="77.74613391789283" y2="56.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="76.8801085141084" y1="57.5" x2="78.61215932167728" y2="58.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="78.61215932167728" y1="58.5" x2="79.47818472546172" y2="58.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789283" y1="56.0" x2="77.74613391789283" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,54.5 m 0,0 l 0.0,-0.0 l 0.8660254037844386,-0.5 l -0.0,0.0 l -0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 78.61215932167728,54.5 m 0,0 l 0.0,-0.0 l -0.8660254037844386,0.5 l -0.0,0.0 l 0.8660254037844386,-0.5 "
+d="m 78.61215932167728,54.5 m 0,0 l -0.0,0.0 l -0.8660254037844386,-0.5 l 0.0,-0.0 l 0.8660254037844386,0.5 "
 />
 <line x1="78.61215932167728" y1="54.5" x2="78.61215932167728" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="79.47818472546172" y1="54.0" x2="79.47818472546172" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="77.74613391789285" y1="55.0" x2="77.74613391789285" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,72.5 m 0,0 l -8.660254037844386,-5.0 l -0.0,1.0 l 8.660254037844386,5.0 l 0.0,-1.0 "
-/>
+<line x1="79.47818472546172" y1="55.0" x2="79.47818472546172" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="77.74613391789285" y1="54.0" x2="77.74613391789285" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,72.5 m 0,0 l -8.660254037844386,-5.0 l 0.0,-1.0 l 8.660254037844386,5.0 l -0.0,1.0 "
-/>
-<line x1="61.29165124598851" y1="72.5" x2="52.63139720814412" y2="67.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="73.5" x2="52.63139720814412" y2="68.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="71.5" x2="52.63139720814412" y2="66.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,77.5 m 0,0 l 8.660254037844386,-5.0 l -0.8660254037844386,-0.5 l -8.660254037844386,5.0 l 0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,77.5 m 0,0 l 8.660254037844386,-5.0 l 0.8660254037844386,0.5 l -8.660254037844386,5.0 l -0.8660254037844386,-0.5 "
-/>
-<line x1="61.29165124598851" y1="77.5" x2="69.9519052838329" y2="72.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220407" y1="77.0" x2="69.08587988004845" y2="72.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="62.15767664977295" y1="78.0" x2="70.81793068761733" y2="73.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 56.96152422706631,75.0 m 0,0 l -0.0,10.0 l 0.8660254037844386,-0.5 l 0.0,-10.0 l -0.8660254037844386,0.5 "
+d="m 76.8801085141084,56.5 m -0.0,1.0 l 1.7320508075688772,1.0 l 0.0,-4.0 l -0.8660254037844386,0.5 l -0.0,2.0 l -0.8660254037844386,-0.5 "
 />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 56.96152422706631,75.0 m 0,0 l -0.0,10.0 l -0.8660254037844386,0.5 l 0.0,-10.0 l 0.8660254037844386,-0.5 "
-/>
-<line x1="56.96152422706631" y1="75.0" x2="56.96152422706631" y2="85.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="57.827549630850754" y1="74.5" x2="57.827549630850754" y2="84.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="56.09549882328187" y1="75.5" x2="56.09549882328187" y2="85.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,74.5 m 0,0 l 0.0,-3.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,2.0 "
+d="m 76.8801085141084,56.5 m 1.7320508075688772,2.0 l 0.8660254037844386,-0.5 l 0.0,-4.0 l -0.8660254037844386,0.5 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,74.5 m -0.8660254037844386,-1.5 l -1.7320508075688772,1.0 l 0.8660254037844386,0.5 l 0.8660254037844386,-0.5 l 0.0,-1.0 "
+d="m 76.8801085141084,56.5 m 0.0,-1.0 l 0.8660254037844386,0.5 l -0.0,1.0 l -0.8660254037844386,-0.5 "
+/>
+<line x1="76.8801085141084" y1="56.5" x2="77.74613391789283" y2="57.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="76.8801085141084" y1="55.5" x2="77.74613391789283" y2="56.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="76.8801085141084" y1="57.5" x2="78.61215932167728" y2="58.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="77.74613391789283" y1="57.0" x2="77.74613391789283" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="58.5" x2="78.61215932167728" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="78.61215932167728" y1="58.5" x2="79.47818472546172" y2="58.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="79.47818472546172" y1="58.0" x2="79.47818472546172" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="79.47818472546172" y1="58.0" x2="79.47818472546172" y2="54.0" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 76.8801085141084,56.5 m 0,0 l 0.0,0.0 l 0.0,-1.0 l -0.0,-0.0 l -0.0,1.0 "
 />
 <path
  style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,74.5 m 0,0 l 0.0,-2.0 l 0.0,-1.0 l 0.8660254037844386,0.5 l -0.0,2.0 "
+d="m 76.8801085141084,56.5 m 0,0 l 0.0,0.0 l -0.0,1.0 l -0.0,-0.0 l 0.0,-1.0 "
 />
-<line x1="61.29165124598851" y1="74.5" x2="61.29165124598851" y2="72.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="72.5" x2="61.29165124598851" y2="71.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="71.5" x2="57.827549630850754" y2="73.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="58.693575034635195" y1="74.0" x2="60.42562584220407" y2="73.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220407" y1="73.0" x2="60.42562584220407" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220407" y1="74.0" x2="60.42562584220407" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="76.8801085141084" y1="56.5" x2="76.8801085141084" y2="56.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="76.8801085141084" y1="55.5" x2="76.8801085141084" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="76.8801085141084" y1="57.5" x2="76.8801085141084" y2="57.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 76.01408311032397,54.0 m -0.8660254037844386,-0.5 l -1.7320508075688772,1.0 l 3.4641016151377544,2.0 l 0.0,-1.0 l -1.7320508075688772,-1.0 l 0.8660254037844386,-0.5 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 76.01408311032397,54.0 m -2.598076211353316,0.5 l -0.0,1.0 l 3.4641016151377544,2.0 l 0.0,-1.0 "
+/>
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 76.01408311032397,54.0 m 0.8660254037844386,0.5 l -0.8660254037844386,0.5 l -0.8660254037844386,-0.5 l 0.8660254037844386,-0.5 "
+/>
+<line x1="76.01408311032397" y1="54.0" x2="75.14805770653953" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="76.8801085141084" y1="54.5" x2="76.01408311032397" y2="55.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="75.14805770653953" y1="53.5" x2="73.41600689897065" y2="54.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="75.14805770653953" y1="54.5" x2="76.88010851410841" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="73.41600689897065" y1="54.5" x2="76.8801085141084" y2="56.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="73.41600689897065" y1="54.5" x2="73.41600689897065" y2="55.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="73.41600689897065" y1="55.5" x2="76.8801085141084" y2="57.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="73.41600689897065" y1="55.5" x2="76.8801085141084" y2="57.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,72.5 m 0,0 l -9.526279441628825,-5.5 l -0.0,1.0 l 9.526279441628825,5.5 l 0.0,-1.0 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,72.5 m 0,0 l -9.526279441628825,-5.5 l 0.0,-1.0 l 9.526279441628825,5.5 l -0.0,1.0 "
+/>
+<line x1="61.29165124598851" y1="72.5" x2="51.76537180435969" y2="67.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="73.5" x2="51.76537180435969" y2="68.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="71.5" x2="51.76537180435969" y2="66.0" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,77.5 m 0,0 l 9.526279441628825,-5.5 l -0.8660254037844386,-0.5 l -9.526279441628825,5.5 l 0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,77.5 m 0,0 l 9.526279441628825,-5.5 l 0.8660254037844386,0.5 l -9.526279441628825,5.5 l -0.8660254037844386,-0.5 "
+/>
+<line x1="61.29165124598851" y1="77.5" x2="70.81793068761733" y2="72.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="60.42562584220407" y1="77.0" x2="69.9519052838329" y2="71.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="62.15767664977295" y1="78.0" x2="71.68395609140178" y2="72.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 56.96152422706631,75.0 m 0,0 l -0.0,11.0 l 0.8660254037844386,-0.5 l 0.0,-11.0 l -0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 56.96152422706631,75.0 m 0,0 l -0.0,11.0 l -0.8660254037844386,0.5 l 0.0,-11.0 l 0.8660254037844386,-0.5 "
+/>
+<line x1="56.96152422706631" y1="75.0" x2="56.96152422706631" y2="86.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="57.827549630850754" y1="74.5" x2="57.827549630850754" y2="85.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="56.09549882328187" y1="75.5" x2="56.09549882328187" y2="86.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,74.5 m 0.8660254037844386,-0.5 l 0.0,-2.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,1.0 "
+/>
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,74.5 m 0.8660254037844386,-2.5 l -0.8660254037844386,-0.5 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 61.29165124598851,74.5 m -0.8660254037844386,0.5 l 0.0,-1.0 l 0.8660254037844386,-0.5 l -0.0,1.0 "
+/>
+<line x1="61.29165124598851" y1="74.5" x2="61.29165124598851" y2="73.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="60.42562584220407" y1="75.0" x2="60.42562584220407" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
 <line x1="62.15767664977295" y1="74.0" x2="62.15767664977295" y2="72.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="73.5" x2="59.559600438419636" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="62.15767664977295" y1="72.0" x2="58.693575034635195" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
 <line x1="62.15767664977295" y1="72.0" x2="61.29165124598851" y2="71.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220407" y1="74.0" x2="59.55960043841963" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="71.5" x2="57.827549630850754" y2="73.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="71.5" x2="57.827549630850754" y2="73.5" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 58.693575034635195,74.0 m 0,0 l -0.0,0.0 l -0.8660254037844386,-0.5 l 0.0,-0.0 l 0.8660254037844386,0.5 "
+d="m 61.29165124598851,74.5 m 0,0 l -0.0,0.0 l 0.8660254037844386,0.5 l 0.0,-0.0 l -0.8660254037844386,-0.5 "
 />
 <path
  style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 58.693575034635195,74.0 m 0,0 l -0.0,0.0 l 0.8660254037844386,0.5 l 0.0,-0.0 l -0.8660254037844386,-0.5 "
-/>
-<line x1="58.693575034635195" y1="74.0" x2="58.693575034635195" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="57.827549630850754" y1="73.5" x2="57.827549630850754" y2="73.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="59.559600438419636" y1="74.5" x2="59.559600438419636" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 58.693575034635195,74.0 m 0,0 l -2.598076211353316,1.5 l 3.4641016151377544,2.0 l 0.0,-1.0 l -1.7320508075688772,-1.0 l 1.7320508075688772,-1.0 "
-/>
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 58.693575034635195,74.0 m -0.8660254037844386,1.5 l 1.7320508075688772,1.0 l 0.0,-1.0 l -0.8660254037844386,-0.5 l -0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 58.693575034635195,74.0 m 0,0 l -1.7320508075688772,1.0 l -0.8660254037844386,0.5 l 0.0,-1.0 l 1.7320508075688772,-1.0 "
-/>
-<line x1="58.693575034635195" y1="74.0" x2="56.96152422706632" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="56.96152422706632" y1="75.0" x2="56.09549882328188" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="56.09549882328188" y1="75.5" x2="59.559600438419636" y2="77.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="59.559600438419636" y1="76.5" x2="57.82754963085076" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="57.82754963085076" y1="75.5" x2="59.559600438419636" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="58.693575034635195" y1="75.0" x2="58.693575034635195" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="57.827549630850754" y1="73.5" x2="56.09549882328188" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="56.09549882328188" y1="74.5" x2="56.09549882328188" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="58.693575034635195" y1="75.0" x2="59.559600438419636" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 59.559600438419636,76.5 m 0,0 l 0.0,0.0 l -0.0,1.0 l -0.0,-0.0 l 0.0,-1.0 "
-/>
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 59.559600438419636,76.5 m 0,0 l 0.0,0.0 l 0.0,-1.0 l -0.0,-0.0 l -0.0,1.0 "
-/>
-<line x1="59.559600438419636" y1="76.5" x2="59.559600438419636" y2="76.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="59.559600438419636" y1="77.5" x2="59.559600438419636" y2="77.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="59.559600438419636" y1="75.5" x2="59.559600438419636" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 59.559600438419636,76.5 m 0,0 l 2.598076211353316,1.5 l 0.0,-4.0 l -0.8660254037844386,0.5 l -0.0,2.0 l -1.7320508075688772,-1.0 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 59.559600438419636,76.5 m 1.7320508075688772,0.0 l 0.0,-2.0 l -0.8660254037844386,0.5 l -0.0,1.0 l 0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 59.559600438419636,76.5 m 0,0 l 1.7320508075688772,1.0 l 0.8660254037844386,0.5 l -0.8660254037844386,0.5 l -1.7320508075688772,-1.0 "
-/>
-<line x1="59.559600438419636" y1="76.5" x2="61.29165124598851" y2="77.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="77.5" x2="62.15767664977295" y2="78.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="62.15767664977295" y1="78.0" x2="62.15767664977295" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="74.5" x2="61.29165124598851" y2="76.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="76.5" x2="59.559600438419636" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220408" y1="76.0" x2="60.42562584220408" y2="76.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="59.559600438419636" y1="77.5" x2="61.29165124598851" y2="78.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="61.29165124598851" y1="78.5" x2="62.15767664977295" y2="78.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220408" y1="76.0" x2="60.42562584220408" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
-<path
- style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,74.5 m 0,0 l 0.0,-0.0 l 0.8660254037844386,-0.5 l -0.0,0.0 l -0.8660254037844386,0.5 "
-/>
-<path
- style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
-d="m 61.29165124598851,74.5 m 0,0 l 0.0,-0.0 l -0.8660254037844386,0.5 l -0.0,0.0 l 0.8660254037844386,-0.5 "
+d="m 61.29165124598851,74.5 m 0,0 l -0.0,0.0 l -0.8660254037844386,-0.5 l 0.0,-0.0 l 0.8660254037844386,0.5 "
 />
 <line x1="61.29165124598851" y1="74.5" x2="61.29165124598851" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="62.15767664977295" y1="74.0" x2="62.15767664977295" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
-<line x1="60.42562584220407" y1="75.0" x2="60.42562584220407" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="62.15767664977295" y1="75.0" x2="62.15767664977295" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="60.42562584220407" y1="74.0" x2="60.42562584220407" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 59.559600438419636,76.5 m -0.0,1.0 l 1.7320508075688772,1.0 l 0.0,-4.0 l -0.8660254037844386,0.5 l -0.0,2.0 l -0.8660254037844386,-0.5 "
+/>
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 59.559600438419636,76.5 m 1.7320508075688772,2.0 l 0.8660254037844386,-0.5 l 0.0,-4.0 l -0.8660254037844386,0.5 "
+/>
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 59.559600438419636,76.5 m 0.0,-1.0 l 0.8660254037844386,0.5 l -0.0,1.0 l -0.8660254037844386,-0.5 "
+/>
+<line x1="59.559600438419636" y1="76.5" x2="60.42562584220408" y2="77.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="59.559600438419636" y1="75.5" x2="60.42562584220408" y2="76.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="59.559600438419636" y1="77.5" x2="61.29165124598851" y2="78.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="60.42562584220408" y1="77.0" x2="60.42562584220408" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="78.5" x2="61.29165124598851" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="61.29165124598851" y1="78.5" x2="62.15767664977295" y2="78.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="62.15767664977295" y1="78.0" x2="62.15767664977295" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="62.15767664977295" y1="78.0" x2="62.15767664977295" y2="74.0" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 59.559600438419636,76.5 m 0,0 l 0.0,0.0 l 0.0,-1.0 l -0.0,-0.0 l -0.0,1.0 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 59.559600438419636,76.5 m 0,0 l 0.0,0.0 l -0.0,1.0 l -0.0,-0.0 l 0.0,-1.0 "
+/>
+<line x1="59.559600438419636" y1="76.5" x2="59.559600438419636" y2="76.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="59.559600438419636" y1="75.5" x2="59.559600438419636" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="59.559600438419636" y1="77.5" x2="59.559600438419636" y2="77.5" style="stroke-width:0.2;" stroke="#000000" />
+<path
+ style="fill:#f03a88;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 58.693575034635195,74.0 m -0.8660254037844386,-0.5 l -1.7320508075688772,1.0 l 3.4641016151377544,2.0 l 0.0,-1.0 l -1.7320508075688772,-1.0 l 0.8660254037844386,-0.5 "
+/>
+<path
+ style="fill:#fff300;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 58.693575034635195,74.0 m -2.598076211353316,0.5 l -0.0,1.0 l 3.4641016151377544,2.0 l 0.0,-1.0 "
+/>
+<path
+ style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
+d="m 58.693575034635195,74.0 m 0.8660254037844386,0.5 l -0.8660254037844386,0.5 l -0.8660254037844386,-0.5 l 0.8660254037844386,-0.5 "
+/>
+<line x1="58.693575034635195" y1="74.0" x2="57.827549630850754" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="59.559600438419636" y1="74.5" x2="58.693575034635195" y2="75.0" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="57.827549630850754" y1="73.5" x2="56.09549882328188" y2="74.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="57.827549630850754" y1="74.5" x2="59.55960043841963" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="56.09549882328188" y1="74.5" x2="59.559600438419636" y2="76.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="56.09549882328188" y1="74.5" x2="56.09549882328188" y2="75.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="56.09549882328188" y1="75.5" x2="59.559600438419636" y2="77.5" style="stroke-width:0.2;" stroke="#000000" />
+<line x1="56.09549882328188" y1="75.5" x2="59.559600438419636" y2="77.5" style="stroke-width:0.2;" stroke="#000000" />
 <path
  style="fill:#ff5f1f;fill-rule:evenodd; fill-opacity:1;stroke:#000000;stroke-linejoin=round;stroke-width:0;stroke-linecap:round"
 d="m 52.63139720814412,59.5 m 0,0 l 0.0,-3.0 l -3.4641016151377544,2.0 l 0.8660254037844386,0.5 l 1.7320508075688772,-1.0 l -0.0,2.0 "

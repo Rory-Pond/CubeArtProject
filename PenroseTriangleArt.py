@@ -135,14 +135,39 @@ def print_generic_corner(rN, colorMod, center, short_length, fill_opacity = 1):
 
 def print_penrose_triangle_arm(center, short_length, long_length, fill_opacity = 1):
     file_string = ""
-    length2 = 10
+    length2 = 11
     file_string += print_generic_section(2, 2, center+Y_UNIT*short_length*0, short_length, -length2, fill_opacity)
     file_string += print_generic_section(1, 1, center+X_UNIT*short_length*5-Y_UNIT*short_length*5, short_length, -length2, fill_opacity)
     file_string += print_generic_section(0, 0, center+X_UNIT*short_length*4+Y_UNIT*short_length*1-Z_UNIT*short_length*1, short_length, -length2, fill_opacity)
     
-    file_string += print_penrose_triangle(center, short_length, long_length, fill_opacity)
+    # file_string += print_penrose_triangle(center, short_length, long_length, fill_opacity)
+    file_string += print_penrose_triangle2(center-Z_UNIT*2+X_UNIT*3, -short_length, -long_length, fill_opacity)
     return file_string
 
+def print_penrose_triangle2(center, short_length, long_length, fill_opacity = 1):
+    file_string = ""
+    pos=center-Z_UNIT*2*short_length
+
+    file_string += print_generic_corner2(0, 0, pos, short_length, fill_opacity)
+    pos += CORNER_DIR[0]*2*short_length
+
+    file_string += print_generic_section(1, 1, pos, short_length, long_length, fill_opacity)
+    pos += SECTION_DIR[1]*long_length
+
+
+    file_string += print_generic_corner2(2, 2, pos, short_length, fill_opacity)
+    pos += CORNER_DIR[2]*2*short_length
+
+    file_string += print_generic_section(2, 2, pos, short_length, long_length, fill_opacity)
+    pos += SECTION_DIR[2]*long_length
+
+    file_string += print_generic_corner2(1, 1, pos, short_length, fill_opacity)
+    pos += CORNER_DIR[0]*2*short_length
+
+    # file_string += print_generic_section(0, 3, pos, short_length, long_length, fill_opacity)
+    # pos += SECTION_DIR[0]*long_length
+
+    return file_string
 def print_penrose_triangle(center, short_length, long_length, fill_opacity = 1):
     file_string = ""
     pos=center-Z_UNIT*2*short_length
