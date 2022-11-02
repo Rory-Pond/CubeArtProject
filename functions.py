@@ -77,3 +77,31 @@ def print_simple_cube(center, length_X, length_Z, length_Y, fill_opacity = 1):
     file_string += print_shape_tuple(BLUE,  path3, fill_opacity)
 
     return file_string
+
+def draw_guidelines(width: int, length: int, background = True):
+    file_print = ""
+    background  = "m", MARGIN_ARR, "l", -H_UNIT*width, "l",  -length*Z_UNIT, "l", H_UNIT*width, "l",  length*Z_UNIT
+    if (background):
+        file_print += print_shape_tuple(DARK_GREY,  background)
+
+    for i in range(width):
+        line_color = "#FF0000" if (i%15==12) else "#808080" 
+        file_print += print_line(MARGIN_ARR  - (i*H_UNIT), MARGIN_ARR - length*Z_UNIT - (i*H_UNIT), line_color)
+
+    for i in range(0, int(length+width/2)):
+        line_color = "#FF0000" if (i%15==6) else "#808080"
+        start = MARGIN_ARR - i*Z_UNIT                if (i<length)  else MARGIN_ARR - length*Z_UNIT - (i-length)*2*H_UNIT
+        end   = MARGIN_ARR - width*X_UNIT - i*Z_UNIT if (i>width/2) else MARGIN_ARR - i*2*H_UNIT
+        file_print += print_line(start, end, line_color)
+
+    for i in range(int(0-width/2), length):
+        line_color = "#FF0000" if (i%15==9) else "#808080"
+        start = MARGIN_ARR - i*Z_UNIT                if(i>0)                else MARGIN_ARR + i*2*H_UNIT
+        end   = MARGIN_ARR - width*Y_UNIT - i*Z_UNIT if(i<(length-width/2)) else MARGIN_ARR - length*Z_UNIT+ (i-(length))*2*H_UNIT 
+        file_print += print_line(start, end, line_color)
+
+    file_print += print_line(MARGIN_ARR, MARGIN_ARR-length*Z_UNIT, BLACK,0.1)
+    file_print += print_line(MARGIN_ARR-H_UNIT*width, MARGIN_ARR-length*Z_UNIT-H_UNIT*width, BLACK,0.1)
+    file_print += print_line(MARGIN_ARR, MARGIN_ARR-H_UNIT*width, BLACK,0.1)
+    file_print += print_line(MARGIN_ARR-length*Z_UNIT, MARGIN_ARR-length*Z_UNIT-H_UNIT*width, BLACK,0.1)
+    return file_print

@@ -132,34 +132,6 @@ def draw_grid_of_mid_design():
             func_string += print_mid_design(np.array([SQRT3*((j*45)+22.5), (52.5+22.5)+(i*45) ]))
     return func_string
 
-def draw_guidelines(width: int, length: int, background = True):
-    file_print = ""
-    background  = "m", MARGIN_ARR, "l", -H_UNIT*width, "l",  -length*Z_UNIT, "l", H_UNIT*width, "l",  length*Z_UNIT
-    if (background):
-        file_print += print_shape_tuple(DARK_GREY,  background)
-
-    for i in range(width):
-        line_color = "#FF0000" if (i%15==12) else "#808080" 
-        file_print += print_line(MARGIN_ARR  - (i*H_UNIT), MARGIN_ARR - length*Z_UNIT - (i*H_UNIT), line_color)
-
-    for i in range(0, int(length+width/2)):
-        line_color = "#FF0000" if (i%15==6) else "#808080"
-        start = MARGIN_ARR - i*Z_UNIT                if (i<length)  else MARGIN_ARR - length*Z_UNIT - (i-length)*2*H_UNIT
-        end   = MARGIN_ARR - width*X_UNIT - i*Z_UNIT if (i>width/2) else MARGIN_ARR - i*2*H_UNIT
-        file_print += print_line(start, end, line_color)
-
-    for i in range(int(0-width/2), length):
-        line_color = "#FF0000" if (i%15==9) else "#808080"
-        start = MARGIN_ARR - i*Z_UNIT                if(i>0)                else MARGIN_ARR + i*2*H_UNIT
-        end   = MARGIN_ARR - width*Y_UNIT - i*Z_UNIT if(i<(length-width/2)) else MARGIN_ARR - length*Z_UNIT+ (i-(length))*2*H_UNIT 
-        file_print += print_line(start, end, line_color)
-
-    file_print += print_line(MARGIN_ARR, MARGIN_ARR-length*Z_UNIT, BLACK,0.1)
-    file_print += print_line(MARGIN_ARR-H_UNIT*width, MARGIN_ARR-length*Z_UNIT-H_UNIT*width, BLACK,0.1)
-    file_print += print_line(MARGIN_ARR, MARGIN_ARR-H_UNIT*width, BLACK,0.1)
-    file_print += print_line(MARGIN_ARR-length*Z_UNIT, MARGIN_ARR-length*Z_UNIT-H_UNIT*width, BLACK,0.1)
-    return file_print
-
 
 def print_start_triple_recursive(list_sizes: list, list_offsets: list, previous_center):
     size = list_sizes.pop()
@@ -226,7 +198,7 @@ def print_top_design(center):
 
 # svg_string += print_compass()
 svg_string = ""
-# svg_string += draw_guidelines(WIDTH_UNITS, HEIGHT)
+svg_string += draw_guidelines(WIDTH_UNITS, HEIGHT)
 svg_string += print_top_design(MARGIN_ARR -40*Z_UNIT -42*H_UNIT)
 svg_string += print_mid_design(MARGIN_ARR -97.5*Z_UNIT -27*H_UNIT)
 svg_string += print_bot_design(MARGIN_ARR -Z_UNIT*135 -42*H_UNIT)
