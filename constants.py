@@ -30,9 +30,9 @@ GREEN     = "#00FF00"
 YELLOW    = "#FFFF00"
 GOLD      = "#FFD700"
 
-# BLUE = neonpink
-# RED = neonyellow 
-# GREEN = neonorange
+BLUE = neonpink
+RED = neonyellow 
+GREEN = neonorange
 # BLUE = WHITE
 # RED = WHITE 
 # GREEN = WHITE
