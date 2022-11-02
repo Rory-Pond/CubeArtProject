@@ -2,7 +2,8 @@ import math
  
 import numpy as np
 
-l_2d_ok = [5* 2**i for i in range(5)]
+l_2d_ok = [i%6 for i in range(10)]
+
 print(l_2d_ok)
 
 

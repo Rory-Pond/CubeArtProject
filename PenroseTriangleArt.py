@@ -3,130 +3,216 @@ import numpy as np
 from constants import *
 from functions import *
 
-HEIGHT = 400
-WIDTH_UNITS = 400
+HEIGHT = 40
+WIDTH_UNITS = 70
 WIDTH = WIDTH_UNITS*0.5*SQRT3
 CENTER_ARR = np.array([MARGIN+WIDTH*0.5, MARGIN+HEIGHT*0.5])
+
+UNIT_1 = [Z_UNIT,  X_UNIT, -Y_UNIT, -Z_UNIT,  Y_UNIT, -Y_UNIT]
+UNIT_2 = [X_UNIT, -Y_UNIT,  Z_UNIT, -X_UNIT, -Z_UNIT,  Z_UNIT]
+UNIT_3 = [Y_UNIT, -Z_UNIT, -X_UNIT, -Y_UNIT,  X_UNIT, -X_UNIT]
+
+COLOR_1 = [GREEN,  BLUE,   RED,  BLUE,   RED,   RED]
+COLOR_2 = [ BLUE,   RED, GREEN, GREEN,  BLUE,  BLUE]
+COLOR_3 = [  RED, GREEN,  BLUE,   RED, GREEN, GREEN]
+
+OFFSET = [ZERO, ZERO, ZERO, Z_UNIT+X_UNIT, Z_UNIT-Y_UNIT, ZERO]
+OFFSET_SECTION = [ZERO, ZERO, ZERO, Z_UNIT, -Y_UNIT, ZERO]
+
+CORNER_DIR = [Z_UNIT+X_UNIT, X_UNIT-Y_UNIT, Z_UNIT-Y_UNIT, Z_UNIT+X_UNIT, Z_UNIT-Y_UNIT, ZERO]
+SECTION_DIR = [Z_UNIT, X_UNIT, -Y_UNIT, Z_UNIT, -Y_UNIT, -X_UNIT]
 
 #Rotate 90 degrees
 #Z -> X
 #X -> -Y
 #Y -> -Z
 
-def print_generic_section(rotationNum, center, short_length, long_length, fill_opacity = 1):
+def print_generic_section(rN, center, short_length, long_length, fill_opacity = 1):
     file_string = ""
-    unit1=Z_UNIT
-    unit2=X_UNIT
-    unit3=Y_UNIT
-    color1=GREEN
-    color2=BLUE
-    color3=RED
-    if(rotationNum == 2):
-            unit1=X_UNIT
-            unit2=-Y_UNIT
-            unit3=-Z_UNIT
-            color1=BLUE
-            color2=RED
-            color3=GREEN
-    if(rotationNum == 3):
-            unit1=-Y_UNIT
-            unit2=Z_UNIT
-            unit3=-X_UNIT
-            color1=RED
-            color2=GREEN
-            color3=BLUE
-
-    path1 = "m", center, "m", ZERO, "l", unit1*long_length, "l", -unit2*short_length, "l", -unit1*long_length, "l",unit2*short_length
-    path2 = "m", center, "m", ZERO, "l", unit1*long_length, "l", unit2*short_length, "l", -unit1*long_length, "l", -unit2*short_length
-    file_string += print_shape_tuple(color3, path1, fill_opacity, 0)
-    file_string += print_shape_tuple(color1, path2, fill_opacity, 0)
-    file_string += print_line(center, center+unit1*long_length, BLACK, 0.2)
-    file_string += print_line(center-unit2*short_length, center-unit2*short_length+unit1*long_length, BLACK, 0.2)
-    file_string += print_line(center+unit2*short_length, center+unit2*short_length+unit1*long_length, BLACK, 0.2)
+    localCenter = center + + OFFSET_SECTION[rN]*long_length
+    path1 = "m", localCenter, "m", ZERO, "l", UNIT_1[rN]*long_length, "l", -UNIT_2[rN]*short_length, "l", -UNIT_1[rN]*long_length, "l",UNIT_2[rN]*short_length
+    path2 = "m", localCenter, "m", ZERO, "l", UNIT_1[rN]*long_length, "l", UNIT_2[rN]*short_length, "l", -UNIT_1[rN]*long_length, "l", -UNIT_2[rN]*short_length
+    file_string += print_shape_tuple(COLOR_3[rN], path1, fill_opacity, 0)
+    file_string += print_shape_tuple(COLOR_1[rN], path2, fill_opacity, 0)
+    file_string += print_line(localCenter, localCenter+UNIT_1[rN]*long_length, BLACK, 0.2)
+    file_string += print_line(localCenter-UNIT_2[rN]*short_length, localCenter-UNIT_2[rN]*short_length+UNIT_1[rN]*long_length, BLACK, 0.2)
+    file_string += print_line(localCenter+UNIT_2[rN]*short_length, localCenter+UNIT_2[rN]*short_length+UNIT_1[rN]*long_length, BLACK, 0.2)
 
     return file_string
 
-def print_generic_corner(rotationNum, center, short_length, long_length, fill_opacity = 1):
+def print_generic_corner2(rN, center, short_length, long_length, fill_opacity = 1):
     file_string = ""
-    unit1=Z_UNIT
-    unit2=X_UNIT
-    unit3=Y_UNIT
-    color1=GREEN
-    color2=BLUE
-    color3=RED
-    if(rotationNum == 2):
-            unit1=X_UNIT
-            unit2=-Y_UNIT
-            unit3=-Z_UNIT
-            color1=BLUE
-            color2=RED
-            color3=GREEN
-    if(rotationNum == 3):
-            unit1=-Y_UNIT
-            unit2=Z_UNIT
-            unit3=-X_UNIT
-            color1=RED
-            color2=GREEN
-            color3=BLUE
 
-    path2 = "m", center, "m", ZERO, "l", unit1*long_length, "l", unit1*short_length, "l", unit2*(long_length+short_length), "l", -unit3*short_length, "l", -unit2*(long_length-short_length), "l", -unit1*long_length
-    path3 = "m", center, "m", unit1*long_length + unit2*short_length , "l", unit2*(long_length-short_length), "l", -unit3*short_length, "l", -unit2*(long_length-2*short_length), "l", unit1*short_length
-    path4 = "m", center, "m", ZERO, "l", unit1*long_length, "l", unit1*short_length, "l", -unit3*short_length, "l", -unit1*long_length
+    localCenter = center + OFFSET[rN]*long_length
 
-    file_string += print_shape_tuple(color1, path2, fill_opacity, 0)
-    file_string += print_shape_tuple(color2, path3, fill_opacity, 0)
-    file_string += print_shape_tuple(color3, path4, fill_opacity, 0)
+    path1 = "m", localCenter, "m", -UNIT_2[rN]*short_length, "l", UNIT_1[rN]*long_length, "l", UNIT_2[rN]*(long_length+short_length), "l", -UNIT_3[rN]*short_length, "l", -UNIT_2[rN]*(long_length-short_length), "l", -UNIT_1[rN]*(long_length-short_length)
+    path2 = "m", localCenter, "m", UNIT_1[rN]*long_length -UNIT_2[rN]*short_length , "l", UNIT_3[rN]*short_length, "l", UNIT_2[rN]*(long_length+short_length),  "l", -UNIT_3[rN]*short_length,
+    path3 = "m", localCenter, "m", UNIT_2[rN]*short_length, "l", UNIT_1[rN]*(long_length-short_length), "l", -UNIT_2[rN]*short_length, "l", -UNIT_1[rN]*(long_length-short_length)
 
-    p1=center
-    p2=p1+unit1*long_length
+    file_string += print_shape_tuple(COLOR_1[(rN+2)%6], path1, fill_opacity, 0)
+    file_string += print_shape_tuple(COLOR_2[(rN+2)%6], path2, fill_opacity, 0)
+    file_string += print_shape_tuple(COLOR_3[(rN+2)%6], path3, fill_opacity, 0)
+
+    p1=localCenter
+    p2=p1+UNIT_1[rN]*(long_length-short_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=p2
-    p2=p1+unit1*short_length
+    p1=localCenter+UNIT_2[rN]*(short_length)
+    p2=p1+UNIT_1[rN]*(long_length-short_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=p2
-    p2=p1+unit2*(long_length+short_length)
+    p1=localCenter-UNIT_2[rN]*(short_length)
+    p2=p1+UNIT_1[rN]*(long_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=p2
-    p2=p1+-unit3*short_length
-    p1=p2
-    p2=p1+-unit2*(long_length-short_length)
+    p1=localCenter+UNIT_1[rN]*(long_length-short_length)
+    p2=p1+UNIT_2[rN]*(long_length-short_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=p2
-    p2=p1+-unit1*long_length
+    p1=localCenter+UNIT_1[rN]*(long_length)-UNIT_2[rN]*(short_length)
+    p2=p1+UNIT_2[rN]*(long_length+short_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=center+unit1*(long_length-short_length) + unit2*short_length
-    p2=p1+unit2*(long_length-2*short_length)
+    p1=localCenter+UNIT_1[rN]*(long_length)-UNIT_2[rN]*(short_length)
+    p2=p1+UNIT_3[rN]*(short_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=center-unit2*short_length
-    p2=p1+unit1*long_length
+    p1=localCenter+UNIT_1[rN]*(long_length)-UNIT_2[rN]*(short_length)+UNIT_3[rN]*(short_length)
+    p2=p1+UNIT_2[rN]*(long_length+short_length)
     file_string += print_line(p1, p2, BLACK, 0.2)
-    p1=p2
-    p2=p1+unit3*short_length
+
     file_string += print_line(p1, p2, BLACK, 0.2)
     return file_string
 
-def print_penrose_triangle(center, short_length, long_length, fill_opacity = 1):
+def print_generic_corner(rN, center, short_length, long_length, fill_opacity = 1):
+    file_string = ""
+    localCenter = center + OFFSET[rN]*long_length
+
+    path1 = "m", localCenter, "m", ZERO, "l", UNIT_1[rN]*long_length, "l", UNIT_1[rN]*short_length, "l", UNIT_2[rN]*(long_length+short_length), "l", -UNIT_3[rN]*short_length, "l", -UNIT_2[rN]*(long_length-short_length), "l", -UNIT_1[rN]*long_length
+    path2 = "m", localCenter, "m", UNIT_1[rN]*long_length + UNIT_2[rN]*short_length , "l", UNIT_2[rN]*(long_length-short_length), "l", -UNIT_3[rN]*short_length, "l", -UNIT_2[rN]*(long_length-2*short_length), "l", UNIT_1[rN]*short_length
+    path3 = "m", localCenter, "m", ZERO, "l", UNIT_1[rN]*long_length, "l", UNIT_1[rN]*short_length, "l", -UNIT_3[rN]*short_length, "l", -UNIT_1[rN]*long_length
+
+    file_string += print_shape_tuple(COLOR_1[rN], path1, fill_opacity, 0)
+    file_string += print_shape_tuple(COLOR_2[rN], path2, fill_opacity, 0)
+    file_string += print_shape_tuple(COLOR_3[rN], path3, fill_opacity, 0)
+
+    p1=localCenter
+    p2=p1+UNIT_1[rN]*long_length
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=p2
+    p2=p1+UNIT_1[rN]*short_length
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=p2
+    p2=p1+UNIT_2[rN]*(long_length+short_length)
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=p2
+    p2=p1+-UNIT_3[rN]*short_length
+    p1=p2
+    p2=p1+-UNIT_2[rN]*(long_length-short_length)
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=p2
+    p2=p1+-UNIT_1[rN]*long_length
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=localCenter+UNIT_1[rN]*(long_length-short_length) + UNIT_2[rN]*short_length
+    p2=p1+UNIT_2[rN]*(long_length-2*short_length)
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=localCenter-UNIT_2[rN]*short_length
+    p2=p1+UNIT_1[rN]*long_length
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    p1=p2
+    p2=p1+UNIT_3[rN]*short_length
+    file_string += print_line(p1, p2, BLACK, 0.2)
+    return file_string
+
+def print_penrose_triangle(center, short_length, long_length, sidelength = 1, fill_opacity = 1):
     file_string = ""
 
     pos=center
-    file_string += print_generic_corner(1, pos, short_length, long_length, fill_opacity)
-
+    file_string += print_generic_corner(0, pos, short_length, long_length, fill_opacity)
     pos=pos+Z_UNIT*long_length+X_UNIT*long_length
-    file_string += print_generic_section(2, pos, short_length, long_length, fill_opacity)
+    
+    for i in range(sidelength):
+        file_string += print_generic_section(1, pos, short_length, long_length, fill_opacity)
+        pos=pos+X_UNIT*long_length
 
-    pos=pos+X_UNIT*long_length
-    file_string += print_generic_corner(2, pos, short_length, long_length, fill_opacity)
-
+    file_string += print_generic_corner(1, pos, short_length, long_length, fill_opacity)
     pos=pos+X_UNIT*long_length-Y_UNIT*long_length
-    file_string += print_generic_section(3, pos, short_length, long_length, fill_opacity)
 
-    pos=pos-Y_UNIT*long_length
-    file_string += print_generic_corner(3, pos, short_length, long_length, fill_opacity)
+    for i in range(sidelength):
+        file_string += print_generic_section(2, pos, short_length, long_length, fill_opacity)
+        pos=pos-Y_UNIT*long_length
 
+    file_string += print_generic_corner(2, pos, short_length, long_length, fill_opacity)
     pos=pos+Z_UNIT*long_length-Y_UNIT*long_length
+
+    for i in range(sidelength):
+        file_string += print_generic_section(0, pos, short_length, long_length, fill_opacity)
+        pos=pos+Z_UNIT*long_length
+    
+    file_string += print_generic_section(0, pos, short_length, long_length, fill_opacity)
+    
+    return file_string
+
+def print_penrose_tie(center, short_length, long_length, sidelength = 1, fill_opacity = 1):
+    file_string = ""
+
+    pos=center
+    file_string += print_generic_corner(0, pos, short_length, long_length, fill_opacity)
+    pos += CORNER_DIR[0]*long_length
+    
     file_string += print_generic_section(1, pos, short_length, long_length, fill_opacity)
+    pos += SECTION_DIR[1]*long_length
+    
+    file_string += print_generic_section(1, pos, short_length, long_length, fill_opacity)
+    pos += SECTION_DIR[1]*long_length
+    
+    file_string += print_generic_corner2(3, pos, short_length, long_length, fill_opacity)
+    pos += CORNER_DIR[3]*long_length
+
+
+    file_string += print_generic_corner2(4, pos, short_length, long_length, fill_opacity)
+    pos += CORNER_DIR[4]*long_length
+
+    file_string += print_generic_section(4, pos, short_length, long_length, fill_opacity)
+    pos += SECTION_DIR[4]*long_length
+
+    file_string += print_generic_section(4, pos, short_length, long_length, fill_opacity)
+    pos += SECTION_DIR[4]*long_length
+
+    file_string += print_generic_corner(2, pos, short_length, long_length, fill_opacity)
+    pos += CORNER_DIR[2]*long_length
 
     return file_string
+
+
+# Designs
+
+svg_string = ""
+svg_string += print_compass()
+
+# svg_string += print_generic_corner3(5, CENTER_ARR+Z_UNIT*10-H_UNIT*15, 1, 3)
+
+svg_string += print_penrose_triangle(CENTER_ARR+Z_UNIT*10+H_UNIT*15, 1, 3)
+
+svg_string += print_penrose_tie(CENTER_ARR+Z_UNIT*10, 1, 3)
+svg_string += print_circle(CENTER_ARR+Z_UNIT*10, 0.1, GOLD, "")
+
+
+pos = CENTER_ARR+H_UNIT*0.5*WIDTH_UNITS-Z_UNIT*5
+for i in range(6):
+    svg_string += print_circle(pos, 1, WHITE, "")
+    svg_string += print_circle(pos+CORNER_DIR[i]*5, 1, BLACK, "")
+    svg_string += print_generic_corner(i, pos, 1, 5)
+
+
+    svg_string += print_circle(pos-Z_UNIT*7, 1, WHITE, "")
+    svg_string += print_circle(pos-Z_UNIT*7+SECTION_DIR[i]*5, 1, BLACK, "")
+    svg_string += print_generic_section(i, pos-Z_UNIT*7, 1, 5)
+
+    svg_string += print_circle(pos-Z_UNIT*14, 1, WHITE, "")
+    svg_string += print_circle(pos-Z_UNIT*14+CORNER_DIR[i]*5, 1, BLACK, "")
+    svg_string += print_generic_corner2(i, pos-Z_UNIT*14, 1, 5)
+    pos-=H_UNIT*13
+
+
+
+
+
+write_svg(WIDTH+2*MARGIN, 1*HEIGHT+2*MARGIN, svg_string)
 
 def draw_guidelines(width: int, length: int, background = True):
     file_print = ""
@@ -155,86 +241,3 @@ def draw_guidelines(width: int, length: int, background = True):
     file_print += print_line(MARGIN_ARR, MARGIN_ARR-H_UNIT*width, BLACK,0.1)
     file_print += print_line(MARGIN_ARR-length*Z_UNIT, MARGIN_ARR-length*Z_UNIT-H_UNIT*width, BLACK,0.1)
     return file_print
-
-
-
-def print_start_triple_recursive(list_sizes: list, list_offsets: list, previous_center):
-    size = list_sizes.pop()
-    return print_outer_cube(previous_center, 1, size) + print_triple_recursive(list_sizes, list_offsets, previous_center)
-
-def print_triple_recursive(list_sizes: list, list_offsets: list, previous_center):
-    size = list_sizes.pop()
-    offset = list_offsets.pop()
-
-    svg_string = ""
-    dirvec = [Z_UNIT, -Y_UNIT, X_UNIT]
-    for der_i in dirvec:
-        layer_center = previous_center+offset*der_i
-        svg_string += print_outer_cube(layer_center, 1, size)
-    if (len(list_offsets) == 0):
-        return svg_string 
-    for der_i in dirvec:
-        layer_center = previous_center+offset*der_i
-        svg_string += print_outer_cube(layer_center, 1, size) + print_triple_recursive(list_sizes.copy(), list_offsets.copy(), layer_center)
-    return svg_string 
-
-# Designs
-
-
-# svg_string += print_start_triple_recursive([5, 10, 22], [7, 14], center);
-# svg_string += print_start_triple_recursive([1, 5, 10, 22], [2, 7, 14], MARGIN_ARR -40*Z_UNIT -42*H_UNIT);
-# svg_string += print_start_triple_recursive([5, 10, 20], [7, 12], MARGIN_ARR -35*Z_UNIT -42*H_UNIT);
-
-svg_string = ""
-svg_string += print_compass()
-
-# svg_string += draw_guidelines(WIDTH_UNITS, HEIGHT)
-# svg_string += print_cube(MARGIN_ARR -40*Z_UNIT -42*H_UNIT, 20, 0.5)
-# svg_string += print_outer_cube(MARGIN_ARR-WIDTH_UNITS*H_UNIT ,1,  5, 0.5)
-
-
-#=======Grid=======
-# for i in range(29):
-#     gap = 7
-#     svg_string += print_z_section(MARGIN_ARR-i*2*gap*H_UNIT ,1, -400, 0.5)
-#     svg_string += print_x_section(MARGIN_ARR-i*2*gap*Z_UNIT ,1, -400, 0.5)
-#     svg_string += print_y_section(MARGIN_ARR-i*2*gap*Z_UNIT+gap*Z_UNIT ,1, -400, 0.5)
-#=======    =======
-
-i=3
-gap = 1
-svg_string += print_penrose_triangle(CENTER_ARR ,1, 5, 0.5)
-
-svg_string += print_generic_corner(1, CENTER_ARR+Z_UNIT*10, 1, 5)
-svg_string += print_circle(CENTER_ARR+Z_UNIT*10, 0.1, GOLD, "")
-
-svg_string += print_circle(CENTER_ARR-10*H_UNIT, 0.1, GOLD, "")
-# svg_string += print_z_section(CENTER_ARR-10*H_UNIT ,1,  5)
-
-# pos=CENTER_ARR+Z_UNIT*10
-# svg_string += print_top_corner(pos ,1, 5, 0.5)
-# svg_string += print_circle(pos, 0.1, GOLD, "")
-# pos=CENTER_ARR+-Z_UNIT*10
-# svg_string += print_left_corner(pos ,1, 5, 0.5)
-# svg_string += print_circle(pos, 0.1, GOLD, "")
-# pos=CENTER_ARR+-Z_UNIT*10+X_UNIT*10
-# svg_string += print_bottom_corner(pos ,1, 5, 0.5)
-# svg_string += print_circle(pos, 0.1, GOLD, "")
-
-# svg_string += print_z_section(CENTER_ARR ,1, 5, 0.5)
-# # svg_string += print_z_section(CENTER_ARR ,1, -5, 0.5)
-# svg_string += print_x_section(CENTER_ARR ,1, 5, 0.5)
-# svg_string += print_y_section(CENTER_ARR ,1, 5, 0.5)
-
-
-# svg_string += print_x_section(CENTER_ARR ,1,  5)
-# svg_string += print_outer_cube(MARGIN_ARR -44*Z_UNIT -44*H_UNIT,1,  20, 0.5)
-# svg_string += print_top_design(MARGIN_ARR -40*Z_UNIT -42*H_UNIT)
-# svg_string += print_mid_design(MARGIN_ARR -97.5*Z_UNIT -27*H_UNIT)
-# svg_string += print_bot_design(MARGIN_ARR -Z_UNIT*135 -42*H_UNIT)
-
-# svg_string += print_inner_cube(MARGIN_ARR -Z_UNIT*35 -42*H_UNIT+15*Z_UNIT, 1, 10)
-# svg_string += print_inner_cube(MARGIN_ARR -Z_UNIT*35 -42*H_UNIT+15*X_UNIT, 1, 10)
-# svg_string += print_inner_cube(MARGIN_ARR -Z_UNIT*35 -42*H_UNIT-15*Y_UNIT, 1, 10)
-
-write_svg(WIDTH+2*MARGIN, 1*HEIGHT+2*MARGIN, svg_string)

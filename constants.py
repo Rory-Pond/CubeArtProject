@@ -33,3 +33,6 @@ GOLD      = "#FFD700"
 # BLUE = neonpink
 # RED = neonyellow 
 # GREEN = neonorange
+BLUE = WHITE
+RED = WHITE 
+GREEN = WHITE
